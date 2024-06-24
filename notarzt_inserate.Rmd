@@ -1,10 +1,9 @@
 ```{r working with date formats}
-lubridate::ymd_hms(date())
+gsub("[- :]", "_", Sys.time())
 ```
 
 ```{r "Tue Jun 18 05:28:46 2024"}
-18_06_05_28 <- "
-MITGLIEDER
+18_06_05_28 <- "MITGLIEDER
 PORTAL
 HOME PROFIL DIENSTE DOKUMENTE SGB IV 23C ABWESENHEIT DOWNLOADS
 Dienstsuche Suchaufträge Dienstwünsche Dienstangebote Geplant Abgeschlossen
@@ -227,6 +226,303 @@ Beginn: 08:00 UhrDauer:
 08:00 Uhr
 Honorar: 20 €/h + 50,00 €/Einsatz-Std.
 Voraussetzungen:ANGESTELLTENVERHÄLTNIS ODER PRAXISNIEDERLASSUNG NACH § 23C SGB IVBERUFSHAFTPFLICHTVERSICHERUNGGERÄTEPASS / GERÄTEEINWEISUNGMAX 24 STUNDEN AM STÜCKFOBI: GES. PFLICHTFORTBILDUNGEN GEM. § 5 ABS. 4 RETTG NRWGESUNDHEITLICHE UND KÖRPERLICHE EIGNUNG GEM. § 4 ABS. 2 RETTG NRWMASERN-IMPFSCHUTZ GEMÄSS GESETZBearbeiter: Bianca Fokuhl
+NAW NÖRDLICH VON OLPE
+2024-2659 in 64 km EntfernungNichts gewählt
+Bitte geben Sie an, ob Sie Interesse haben oder nicht.
+ABLEHNEN INTERESSE 
+NotarztDatum: 28/06/2024
+Beginn: 16:00 UhrDauer:
+17 h 0 minEnde:
+09:00 Uhr
+Honorar: 35 €/h
+Voraussetzungen:ANGESTELLTENVERHÄLTNIS ODER PRAXISNIEDERLASSUNG NACH § 23C SGB IVMASERN-IMPFSCHUTZ GEMÄSS GESETZBearbeiter: Celine Hassel
+AGB
+Impressum
+Datenschutzerklärung
+Notarzt-Börse
+Dr. med. André Kröncke e.K.
+Erlenhof, Alte Salzstr. 7
+23911 Pogeez
+ 
+Telefon: 04541 / 80180-0
+Fax: 04541 / 80180-55
+E-Mail: service@notarzt-boerse.de"
+```
+```{r Sun_Jun_23_07_12_54_2024}
+Sun_Jun_23_07_12_54_2024 <- "
+MITGLIEDER
+PORTAL
+HOME PROFIL DIENSTE DOKUMENTE SGB IV 23C ABWESENHEIT DOWNLOADS
+Dienstsuche Suchaufträge Dienstwünsche Dienstangebote Geplant Abgeschlossen
+Dr. med. G. Schleifer
+Mitglied Nr.: 16108
+  
+DIENSTSUCHE
+ QUALIFIKATION
+ GEWÜNSCHTER ORT
++ 100 km
+ AUSGEWÄHLTE VORAUSSETZUNGEN
+	Angestelltenverhältnis oder Praxisniederlassung nach § 23c SGB IV
+	Masern-Impfschutz gemäß Gesetz
+	Berufshaftpflichtversicherung
+	Immunitätsnachweis COVID-19
+	eigene Schutzausrüstung (Jacke, Pulli, Hose, S3-Schuhe)
+	max 24 Stunden am Stück
+JUNE 2024
+AbwesenheitDienstwunsch
+Ergebnis: 2 DiensteSortierung nach: 
+Entfernung
+DIENSTPLAN SEKUNDÄRTRANSPORTE NORD JUNI 2024
+2024-1647 in 64 km EntfernungNichts gewählt
+Bitte geben Sie an, ob Sie Interesse haben oder nicht.
+ABLEHNEN INTERESSE 
+NotarztDatum: 25/06/2024
+Beginn: 08:00 UhrDauer:
+24 h 0 minEnde:
+08:00 Uhr
+Honorar: 20 €/h + 50,00 €/Einsatz-Std.
+Voraussetzungen:ANGESTELLTENVERHÄLTNIS ODER PRAXISNIEDERLASSUNG NACH § 23C SGB IVBERUFSHAFTPFLICHTVERSICHERUNGGERÄTEPASS / GERÄTEEINWEISUNGMAX 24 STUNDEN AM STÜCKFOBI: GES. PFLICHTFORTBILDUNGEN GEM. § 5 ABS. 4 RETTG NRWGESUNDHEITLICHE UND KÖRPERLICHE EIGNUNG GEM. § 4 ABS. 2 RETTG NRWMASERN-IMPFSCHUTZ GEMÄSS GESETZBearbeiter: Bianca Fokuhl
+NAW NÖRDLICH VON OLPE
+2024-2659 in 64 km EntfernungNichts gewählt
+Bitte geben Sie an, ob Sie Interesse haben oder nicht.
+ABLEHNEN INTERESSE 
+NotarztDatum: 28/06/2024
+Beginn: 16:00 UhrDauer:
+17 h 0 minEnde:
+09:00 Uhr
+Honorar: 35 €/h
+Voraussetzungen:ANGESTELLTENVERHÄLTNIS ODER PRAXISNIEDERLASSUNG NACH § 23C SGB IVMASERN-IMPFSCHUTZ GEMÄSS GESETZBearbeiter: Celine Hassel
+AGB
+Impressum
+Datenschutzerklärung
+Notarzt-Börse
+Dr. med. André Kröncke e.K.
+Erlenhof, Alte Salzstr. 7
+23911 Pogeez
+ 
+Telefon: 04541 / 80180-0
+Fax: 04541 / 80180-55
+E-Mail: service@notarzt-boerse.de"
+```
+```{r 2024_06_24_07_27_00}
+2024_06_24_07_27_00 <- "MITGLIEDER
+PORTAL
+HOME PROFIL DIENSTE DOKUMENTE SGB IV 23C ABWESENHEIT DOWNLOADS
+Dienstsuche Suchaufträge Dienstwünsche Dienstangebote Geplant Abgeschlossen
+Dr. med. G. Schleifer
+Mitglied Nr.: 16108
+  
+DIENSTSUCHE
+ QUALIFIKATION
+ GEWÜNSCHTER ORT
++ 100 km
+ AUSGEWÄHLTE VORAUSSETZUNGEN
+	Angestelltenverhältnis oder Praxisniederlassung nach § 23c SGB IV
+	Masern-Impfschutz gemäß Gesetz
+	Berufshaftpflichtversicherung
+	Immunitätsnachweis COVID-19
+	eigene Schutzausrüstung (Jacke, Pulli, Hose, S3-Schuhe)
+	max 24 Stunden am Stück
+JUNE 2024
+AbwesenheitDienstwunsch
+Ergebnis: 2 DiensteSortierung nach: 
+Entfernung
+DIENSTPLAN SEKUNDÄRTRANSPORTE NORD JUNI 2024
+2024-1647 in 64 km EntfernungNichts gewählt
+Bitte geben Sie an, ob Sie Interesse haben oder nicht.
+ABLEHNEN INTERESSE 
+NotarztDatum: 25/06/2024
+Beginn: 08:00 UhrDauer:
+24 h 0 minEnde:
+08:00 Uhr
+Honorar: 20 €/h + 50,00 €/Einsatz-Std.
+Voraussetzungen:ANGESTELLTENVERHÄLTNIS ODER PRAXISNIEDERLASSUNG NACH § 23C SGB IVBERUFSHAFTPFLICHTVERSICHERUNGGERÄTEPASS / GERÄTEEINWEISUNGMAX 24 STUNDEN AM STÜCKFOBI: GES. PFLICHTFORTBILDUNGEN GEM. § 5 ABS. 4 RETTG NRWGESUNDHEITLICHE UND KÖRPERLICHE EIGNUNG GEM. § 4 ABS. 2 RETTG NRWMASERN-IMPFSCHUTZ GEMÄSS GESETZBearbeiter: Bianca Fokuhl
+NAW NÖRDLICH VON OLPE
+2024-2659 in 64 km EntfernungNichts gewählt
+Bitte geben Sie an, ob Sie Interesse haben oder nicht.
+ABLEHNEN INTERESSE 
+NotarztDatum: 28/06/2024
+Beginn: 16:00 UhrDauer:
+17 h 0 minEnde:
+09:00 Uhr
+Honorar: 35 €/h
+Voraussetzungen:ANGESTELLTENVERHÄLTNIS ODER PRAXISNIEDERLASSUNG NACH § 23C SGB IVMASERN-IMPFSCHUTZ GEMÄSS GESETZBearbeiter: Celine Hassel
+AGB
+Impressum
+Datenschutzerklärung
+Notarzt-Börse
+Dr. med. André Kröncke e.K.
+Erlenhof, Alte Salzstr. 7
+23911 Pogeez
+ 
+Telefon: 04541 / 80180-0
+Fax: 04541 / 80180-55
+E-Mail: service@notarzt-boerse.de"
+```
+
+```{r doctary 2024_06_24_07_27_00}
+2024_06_24_07_27_00 <- "doctari-portal
+Dashboard
+Jobbörse
+Einsätze
+Profil
+GS
+Grigorij Schleifer
+Stellenangebote
+Alle
+Empfohlene Jobs
+Beworben
+2 Ergebnisse
+
+Fachrichtung
+
+Anästhesiologie
+
+Zusatzbezeichnung
+Notfallmedizin
+
+
+Bitte auswählen
+
+Arbeitsmodell
+Mehr Infos
+
+Flexible Zeitarbeit
+
+Einsatzbereiche
+Normalstation
+
+Intensivbereich
+
+OP-Bereich
+
+Funktionsbereich
+
+Nicht-akutklinischer Bereich
+
+
+Bitte auswählen
+Oberbereich
+Herz-Thoraxchirurgie
+
+IMC
+
+Interdisziplinäre Intensivstation
+
+Kardiologie (ITS)
+
+Kinderkardiologie (ITS)
+
+Alle Anzeigen
+
+Bitte auswählen
+Einsatzbereich
+
+Verfügbarkeit
+
+dd.mm.yyyy
+Von
+
+dd.mm.yyyy
+Bis
+
+Ort
+
+Bundesland
+
+Stadt
+Nordrhein-Westfalen
+
+
+Bitte auswählen
+
+Position
+Fachärztin/-arzt
+
+Oberärztin/-arzt
+
+
+Bitte auswählen
+
+Art der Einrichtung
+Ausblenden
+Alle Einrichtungen
+
+Krankenhaus der Grundversorgung (bis 250 Betten)
+
+Krankenhaus der Regelversorgung (250-500 Betten)
+
+Schwerpunktkrankenhaus (500-700 Betten)
+
+Krankenhaus der Maximalversorgung (ab 700 Betten)
+
+Alle Anzeigen
+
+Bitte auswählen
+
+Stundensatz
+Anzeigen
+Auf Präferenzen zurücksetzen
+preferences
+Empfohlene Jobs richten sich nach Ihren Qualifikationen & Präferenzen
+
+Fachärztin/-arzt (m/w/d)
+vor 11 Tagen
+Anästhesiologie
+06.08. - 29.08.2024
+95 €/Std.
+in NRW, Nordrhein-Westfalen
+Fachärztin/-arzt (m/w/d)
+vor 12 Tagen
+Anästhesiologie
+15.07. - 30.08.2024
+95 €/Std.
+Großraum Münster, Nordrhein-Westfalen
+©2024 doctari GmbH | doctari Pflege GmbH | Version: 2.753.0
+Datenschutz
+Einwilligungseinstellungen
+Gender-Hinweis
+AGB
+Impressum"
+```
+
+```{r 2024_06_24_20_20_23}
+2024_06_24_20_20_23 <- "
+MITGLIEDER
+PORTAL
+HOME PROFIL DIENSTE DOKUMENTE SGB IV 23C ABWESENHEIT DOWNLOADS
+Dienstsuche Suchaufträge Dienstwünsche Dienstangebote Geplant Abgeschlossen
+Dr. med. G. Schleifer
+Mitglied Nr.: 16108
+  
+DIENSTSUCHE
+ QUALIFIKATION
+ GEWÜNSCHTER ORT
++ 100 km
+ AUSGEWÄHLTE VORAUSSETZUNGEN
+	Angestelltenverhältnis oder Praxisniederlassung nach § 23c SGB IV
+	Masern-Impfschutz gemäß Gesetz
+	Berufshaftpflichtversicherung
+	Immunitätsnachweis COVID-19
+	eigene Schutzausrüstung (Jacke, Pulli, Hose, S3-Schuhe)
+	max 24 Stunden am Stück
+JUNE 2024
+AbwesenheitDienstwunsch
+Ergebnis: 2 DiensteSortierung nach: 
+Entfernung
+NAW NÄHE KOTTENHEIM
+2024-2728 in 48 km Entfernung
+(Bereits dort gearbeitet)Nichts gewählt
+Bitte geben Sie an, ob Sie Interesse haben oder nicht.
+ABLEHNEN INTERESSE 
+NotarztDatum: 30/06/2024
+Beginn: 09:00 UhrDauer:
+22 h 30 minEnde:
+07:30 Uhr
+Honorar: 40 €/h + + 25,00 € pro Einsatz
+TV im Arztzimmer	Schreibtisch im Arztzimmer	Kochnische mit Wasserkocher/Mikrowelle	eigenes Waschbecken, eigene Toilette und eigene Dusche
+TV im Arztzimmer	Schreibtisch im Arztzimmer	Kochnische mit Wasserkocher/Mikrowelle	eigenes Waschbecken, eigene Toilette und eigene Dusche
+Voraussetzungen:ANGESTELLTENVERHÄLTNIS ODER PRAXISNIEDERLASSUNG NACH § 23C SGB IVMASERN-IMPFSCHUTZ GEMÄSS GESETZBearbeiter: Angelik Schmidt
 NAW NÖRDLICH VON OLPE
 2024-2659 in 64 km EntfernungNichts gewählt
 Bitte geben Sie an, ob Sie Interesse haben oder nicht.
