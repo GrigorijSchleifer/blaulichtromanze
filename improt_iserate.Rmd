@@ -1,0 +1,20 @@
+```{r}
+library(tidyverse)  # Datenjudo
+library(stringr)  # Textverarbeitung
+library(tidytext)  # Textmining
+library(lsa)  # Stopwörter 
+library(SnowballC)  # Wörter trunkieren
+library(wordcloud)  # Wordcloud anzeigen
+```
+
+```{r working with date formats}
+CEST <- gsub("[- :]", "_", Sys.time())
+print(gsub("\\..*", "", CEST))
+```
+
+
+
+
+
+
+
